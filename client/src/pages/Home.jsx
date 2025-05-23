@@ -2,9 +2,11 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>Welcome to HandyNest</h1>
-      <p>Your one-stop solution for carpenters, plumbers, and more!</p>
+    <div className="p-10 text-center">
+      <h1 className="text-4xl font-semibold mb-4">Welcome to HandyNest</h1>
+      <p className="text-lg text-gray-600">
+        Your one-stop solution for skilled professionals like carpenters, plumbers, and electricians.
+      </p>
     </div>
   );
 };
